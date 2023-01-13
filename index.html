@@ -1,49 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Complete responsive Fitness Website Design</title>
 
     <!-- Custom CSS file link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- fontawesome cdn file link -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
 
-</head>
-<body>
-
+    <!-- Use Swiper CSS Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
     <!-- header section starts -->
 
     <header class="header">
+      <a href="#" class="logo">Fit<span>nezz</span></a>
 
-        <a href="#" class="logo">Fit<span>nezz</span></a>
+      <nav class="navbar">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">services</a>
+        <a href="#">news</a>
+        <a href="#">contact</a>
+      </nav>
 
-        <nav class="navbar">
-            <a href="#">home</a> 
-            <a href="#">about</a> 
-            <a href="#">services</a> 
-            <a href="#">news</a> 
-            <a href="#">contact</a>  
-        </nav>
-
-        <div class="icons">
-            <a href="#" class="btn">Become a member</a>
-            <div id="menu-btn" class="fas fa-bars"></div>
-        </div>
-
+      <div class="icons">
+        <a href="#" class="btn">Become a member</a>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
     </header>
 
     <!-- header section ends -->
 
+    <!-- home section ends -->
 
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide box"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.3),
+                  rgba(0, 0, 0, 0.3)
+                ),
+                url('images/home-1.jpeg');
+            "
+          >
+            <div class="content">
+              <h3>join fitnezz today</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt velit molestias non corporis natus autem officia
+                aliquid blanditiis sed voluptatum laborum at, rem impedit, aut
+                laboriosam illo optio quia hic!
+              </p>
 
+              <div class="button">
+                <a href="#" class="btn btn-1">get started</a>
+                <a href="#" class="btn download">download</a>
+              </div>
+            </div>
+          </div>
 
+          <div
+            class="swiper-slide box"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.3),
+                  rgba(0, 0, 0, 0.3)
+                ),
+                url('images/home-2.jpeg');
+            "
+          >
+            <div class="content">
+              <h3>health is wealth</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt velit molestias non corporis natus autem officia
+                aliquid blanditiis sed voluptatum laborum at, rem impedit, aut
+                laboriosam illo optio quia hic!
+              </p>
+
+              <div class="button">
+                <a href="#" class="btn btn-1">get started</a>
+                <a href="#" class="btn download">download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- feature sections starts -->
+
+    <section class="feature">
+      <h1 class="heading">featured <span>Classes</span></h1>
+
+      <div class="swiper feature-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="images/Feature-classes.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <div class="price">$39.99</div>
+              <h3>Fitness Classes name here</h3>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="images/Feature-classes-2.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <div class="price">$39.99</div>
+              <h3>Fitness Classes name here</h3>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="images/Feature-classes-3.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <div class="price">$39.99</div>
+              <h3>Fitness Classes name here</h3>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="images/Feature-classes-4.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <div class="price">$39.99</div>
+              <h3>Fitness Classes name here</h3>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="images/Feature-classes-5.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <div class="price">$39.99</div>
+              <h3>Fitness Classes name here</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- feature sections ends -->
+
+    <!-- schedule section starts -->
+
+    <section class="schedule">
+        <h1 class="heading"><span>our</span>schedule</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="content">
+                    <h3>Fitness class name here</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit !</p>
+                </div>
+                <div class="icons">
+                    <span><i class="far fa-clock"></i> 5:30 PM</span>
+                    <span><i class="fad fa-calendar-alt"></i> april 22, 2021</span>
+                </div>
+                <a href="#" class="btn">Join form $15.00</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-1.jpeg" alt="" />
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3>Fitness class name here</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit !</p>
+                </div>
+                <div class="icons">
+                    <span><i class="far fa-clock"></i> 5:30 PM</span>
+                    <span><i class="fad fa-calendar-alt"></i> april 22, 2021</span>
+                </div>
+                <a href="#" class="btn">Join form $15.00</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-2.jpeg" alt="" />
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-3.jpeg" alt="" />
+             </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3>Fitness class name here</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit !</p>
+                </div>
+                <div class="icons">
+                    <span><i class="far fa-clock"></i> 5:30 PM</span>
+                    <span><i class="fad fa-calendar-alt"></i> april 22, 2021</span>
+                </div>
+                    <a href="#" class="btn">Join form $15.00</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-4.jpeg" alt="" />
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3>Fitness class name here</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
+                </div>
+                <div class="icons">
+                    <span><i class="far fa-clock"></i> 5:30 PM</span>
+                    <span><i class="fad fa-calendar-alt"></i> april 22, 2021</span>
+                </div>
+                <a href="#" class="btn">Join form $15.00</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- schedule section ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- custom JS file link -->
     <script src="script.js"></script>
-    
-</body>
+  </body>
 </html>
